@@ -1,0 +1,54 @@
+.form,
+.gettings{
+    display: none;
+}/*h1, h4 태그 안에 class 뒤에 있는 것에 적용하는 것임*/
+.showing{
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+body{
+    color: white;
+}
+.js-clock{
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  font-size: 50px;
+}
+.js-weather{
+  position: absolute;
+  right: 2%;
+  top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+.position{
+  position: absolute;
+  left: 44%;
+  top: 300px;
+}
+.js-toDoList{
+  font-size: 20px; 
+}
+.js-greetings{
+  color: brown;
+  font-size: 30px;
+}
