@@ -1,1 +1,0 @@
-# moongnsqja.github.io
